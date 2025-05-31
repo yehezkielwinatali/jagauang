@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/api/inngest/route.ts", "app/lib/inngest/functions.js", "app/(main)/transaction/_components/transaction_form.tsx", "app/(main)/transaction/_components/transaction_form.tsx", "app/(main)/transaction/create/page.tsx", "app/lib/inngest/functions.jsx"],
   "exclude": ["node_modules"]
 }
