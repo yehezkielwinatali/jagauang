@@ -28,12 +28,12 @@ function serializeTransactionFull(tx: any) {
   };
 }
 
-interface PageProps {
-  searchParams?: { edit?: string };
-}
-
-export default async function AddTransactionPage({ searchParams }: PageProps) {
-  const editId = await searchParams?.edit;
+export default async function AddTransactionPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id: editId } = await params;
   console.log("Edit ID:", editId);
 
   const accountsRaw = await getUserAccounts();
