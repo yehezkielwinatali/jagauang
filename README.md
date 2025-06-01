@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Jaga Uang
 
-## Getting Started
+**Jaga Uang** is a modern, AI-enhanced personal finance tracker designed to help you manage income, spending, and budgeting with ease. Built with cutting-edge tools like Next.js, Prisma, Clerk, and Gemini AI, the app makes financial wellness smarter, more intuitive, and automated.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔁 **Recurring Transactions** – Automatically log monthly bills, subscriptions, and income.
+- 📊 **AI-Powered Reports** – Receive insightful monthly summaries powered by Gemini AI.
+- 🚨 **Budget Alerts** – Get notified when you're close to exceeding your category limits.
+- 🔐 **Secure Authentication** – Managed with Clerk for fast and secure sign-in.
+- 📅 **Timeline of Activity** – Track your financial flow in a clear, date-based interface.
+- 🧠 **Smart Categorization** – Automatically classify expenses for cleaner insights.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) – App framework with hybrid rendering.
+- [Prisma](https://www.prisma.io/) – Type-safe ORM for database access.
+- [Clerk](https://clerk.dev/) – Authentication and user management.
+- [Inngest](https://www.inngest.com/) – Event-driven background jobs.
+- [Gemini API](https://deepmind.google/technologies/gemini/) – For generating AI-based reports and summaries.
+- [Tailwind CSS](https://tailwindcss.com/) – Modern utility-first styling.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/jaga-uang.git
+   cd jaga-uang
