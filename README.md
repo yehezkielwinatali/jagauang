@@ -19,7 +19,7 @@
 - [Inngest](https://www.inngest.com/) – Event-driven background jobs.
 - [Gemini API](https://deepmind.google/technologies/gemini/) – For generating AI-based reports and summaries.
 - [Tailwind CSS](https://tailwindcss.com/) – Modern utility-first styling.
-
+- [Supabase](https://supabase.com/) – Backend as a service for database, authentication, and storage
 ## 🚀 Getting Started
 
 1. **Clone the repo**
